@@ -1,0 +1,8 @@
+
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteRule ^(/)?$ /food-List/public/index.php/$1 [L]
+RewriteCond ${REQUEST_FILENAME} !-f
+RewriteCond ${REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ /food-List/public/index.php/$1 [L]
+</IfModule>

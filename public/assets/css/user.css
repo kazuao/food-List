@@ -1,0 +1,154 @@
+/*　マイページ */
+.shop-img{
+  width: 300px;
+  padding: 0 10px;
+}
+.s-l{
+  margin: 10px 15px ;
+}
+
+/* shops CSS */
+.shop-value{
+  margin-top: 20px;
+}
+.shop-value p{
+  font-size: 18px;
+}
+.border{
+  padding: 0 15px;
+  margin-bottom: 20px;
+  border: 1px dotted gray;
+}
+.shop_url a{
+  color: orange;
+  text-decoration: underline
+}
+
+
+a {
+  color: gray;
+  transition: all ease-in-out 200ms;
+}
+a:hover {
+  color: #333333;
+  text-decoration: none;
+}
+/*=== 9. Misc ===*/
+.logo {
+  padding: 15px 0;
+  font-size: 25px;
+  color: #aaaaaa;
+}
+
+.icon-bar {
+border-color: gray;
+background-color: gray;
+border: 0.5px solid gray;
+}
+
+/* menu-bar */
+#menu-box li.active{
+  opacity: 0.7;
+  transition: all ease-in-out 200ms;
+}
+#menu-box{
+  margin: 0 auto;
+  text-align: center;
+}
+#menu{
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0;
+}
+#menu li{
+  display: block;
+  float: left;
+  width: 25%;
+  margin: 0;
+  padding: 0;
+}
+#menu li a{
+  display: block;
+  padding: 12px 0 10px;
+  background: #FFDAA7;
+  color: gray;
+  text-align: center;
+  text-decoration: none;
+}
+#menu li a:hover{
+  opacity: 0.8;
+}
+#toggle{
+ display: none;
+}
+@media only screen and (max-width: 768px) {
+    #menu li{
+    width: 25%;
+  }
+}
+@media only screen and (max-width: 480px) {
+  #menu{
+    display: none;
+  }
+  #menu li{
+    width: 100%;
+  }
+  #toggle{
+    display: block;
+    position: relative;
+    width: 100%;
+    background: #FFDAA7;
+  }
+  #toggle a{
+    display: block;
+    position: relative;
+    padding: 12px 0 10px;
+    color: gray;
+    text-align: center;
+    text-decoration: none;
+  }
+  #toggle:before{
+    display: block;
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    width: 20px;
+    height: 20px;
+    margin-top: -10px;
+    background: gray;
+  }
+  #toggle a:before, #toggle a:after{
+    display: block;
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    width: 20px;
+    height: 4px;
+    background: #FFDAA7;
+  }
+  #toggle a:before{
+    margin-top: -6px;
+  }
+  #toggle a:after{
+    margin-top: 2px;
+  }
+}
+
+/* 検索メニュー */
+.sta-search{
+  display: block;
+  float: left;
+}
+
+.config-btn{
+  margin: 20px auto;
+}
+.config-btn a{
+  color:white;
+}
+.search-box{
+  margin-bottom: 30px;
+}
