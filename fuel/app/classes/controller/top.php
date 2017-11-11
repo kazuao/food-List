@@ -7,6 +7,11 @@ class Controller_Top extends Controller_Public
     $this->template->title = "food-List.";
     $this->template->content = View::forge('top/index');
   }
+  public function action_updateSite()
+  {
+    $this->template->title = "更新履歴";
+    $this->template->content = View::forge('top/updateSite');
+  }
 
   public function action_inquiry()
   {
