@@ -59,7 +59,7 @@
   <script type="text/javascript">
   	//COMTOPIA流Google MAP表示方法
   	var geocoder = new google.maps.Geocoder();//Geocode APIを使います。
-  	var address = "<?= $shop_info->address ?>";
+  	var address = "<?= $shop_info['shop_address'] ?>";
   	geocoder.geocode({'address': address,'language':'ja'},function(results, status){
   		if (status == google.maps.GeocoderStatus.OK){
   			var latlng=results[0].geometry.location;//緯度と経度を取得
