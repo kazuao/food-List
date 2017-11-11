@@ -1,4 +1,5 @@
 <div class="container">
+  <?= '<div class="alert-error">'.Session::get_flash('error').'</div>'?>
 
   <div class="main-logo text-center">
     <?= Html::img('public/assets/img/logo.png'); ?>

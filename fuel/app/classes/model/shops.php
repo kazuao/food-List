@@ -144,7 +144,7 @@ class Model_Shops extends \Model
     $user = Arr::get(Auth::get_user_id(), 1);
     $new_username = originfunction::h($new_username);
 
-    $query = DB::update('users')->value('username', $new_username)->where('is_deleted', '=', false)
+    $query = DB::update('users')->value('username', $new_username)
               ->where('id', '=', $user)->execute();
     return $query;
   }

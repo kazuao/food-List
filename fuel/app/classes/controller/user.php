@@ -304,8 +304,9 @@ class Controller_User extends Controller_Public
     $unsub = Model_Shops::unsub_member($unsub_member);
 
     if($unsub> 0){
-      $view = View::forge('index');
+      $view = View::forge('top/index');
       $this->template->title = '退会しました。';
+      Session::set_flash('error', '退会しました。');
     }else{
       $view = View::forge('user/config');
       $view->unsub_message = "退会できませんでした。";
@@ -325,9 +326,4 @@ class Controller_User extends Controller_Public
     return parent::after($response);
   }
 
-  public function __toString()
-    {
-      Session::set_flash('error', '');
-      return;
-    }
 }
