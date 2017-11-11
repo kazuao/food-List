@@ -188,6 +188,8 @@ class Controller_User extends Controller_Public
 
     $view = View::forge('user/saveshop', $data);
 
+    $view->apiKey = $apiKey;
+
     $this->template->title = 'お店を登録しました。';
     $this->template->content = $view;
 
