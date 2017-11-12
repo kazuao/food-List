@@ -1,7 +1,7 @@
 <div class="header">
 
   <div class="header-logo">
-    <a href="<?= URI::base().""; ?>"><?= Html::img('public/assets/img/logo.png'); ?></a>
+    <a href="<?= URI::base().""; ?>"><?= Html::img('assets/img/logo.png'); ?></a>
   </div>
 
   <div class="btn btn-link header-right">

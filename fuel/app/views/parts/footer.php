@@ -5,7 +5,7 @@
   <div class="container">
 
     <div class="footer-logo center-block col-md-4 col-sm-12">
-      <a href="<?= URI::base().""; ?>"><?= Html::img('public/assets/img/logo.png'); ?></a>
+      <a href="<?= URI::base().""; ?>"><?= Html::img('assets/img/logo.png'); ?></a>
     </div>
 
     <div class="inquiry col-md-4 col-sm-12">
