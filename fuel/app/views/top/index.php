@@ -2,7 +2,7 @@
   <?= '<div class="alert-error">'.Session::get_flash('error').'</div>'?>
 
   <div class="main-logo text-center">
-    <?= Html::img('public/assets/img/logo.png'); ?>
+    <?= Html::img('assets/img/logo.png'); ?>
   </div>
 
   <h2>世界にひとつだけ、自分だけのレストランリスト。</h2>
@@ -27,13 +27,13 @@
     <!-- スライドの内容 -->
     <div class="carousel-inner">
       <div class="item active">
-        <?= Html::img('public/assets/img/photo1.jpg', ['alt' => '写真１']); ?>
+        <?= Html::img('assets/img/photo1.jpg', ['alt' => '写真１']); ?>
       </div>
       <div class="item">
-        <?= Html::img('public/assets/img/photo2.jpg', ['alt' => '写真２']); ?>
+        <?= Html::img('assets/img/photo2.jpg', ['alt' => '写真２']); ?>
       </div>
       <div class="item">
-        <?= Html::img('public/assets/img/photo3.jpg', ['alt' => '写真３']); ?>
+        <?= Html::img('assets/img/photo3.jpg', ['alt' => '写真３']); ?>
       </div>
     </div>
 
@@ -51,17 +51,17 @@
       <h1>機能</h1>
     </div>
     <div class="content-item col-md-4 text-center">
-      <?= Html::img('public/assets/img/wing.png'); ?>
+      <?= Html::img('assets/img/wing.png'); ?>
       <p>登録するお店の情報はお店の名前か電話番号で簡単に取得</p>
     </div>
 
     <div class="content-item col-md-4 text-center">
-      <?= Html::img('public/assets/img/money.png'); ?>
+      <?= Html::img('assets/img/money.png'); ?>
       <p>使った金額やお店の感想などを入れるだけの簡単まとめ</p>
     </div>
 
     <div class="content-item col-md-4 text-center">
-      <?= Html::img('public/assets/img/text.png'); ?>
+      <?= Html::img('assets/img/text.png'); ?>
       <p>様々なソートやグループで、見やすく管理しやすく</p>
     </div>
   </div>
