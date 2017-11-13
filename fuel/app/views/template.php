@@ -16,7 +16,7 @@
   <!-- JS, JQuery -->
   <script type="text/javascript" href="<?= URI::base().'assets/js/menu.js'; ?>"></script>
   <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script></body>
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
   <title><?= $title; ?></title>
 
@@ -25,9 +25,7 @@
 
   <header><?= $header; ?></header>
 
-  <div class="content">
-    <?= $content; ?>
-  </div>
+  <?= $content; ?>
 
   <footer><?= $footer; ?></footer>
 

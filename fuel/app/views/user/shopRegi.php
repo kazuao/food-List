@@ -58,7 +58,7 @@
           <h4>利用人数</h4>
           <input type="number" name="num_guests">人<br>
         </div>
-        <div class="shop-value">
+        <div class="shop-value shop-comment">
           <h4>コメント</h4>
           <textarea name="comment" cols="90" rows="6"></textarea><br><br>
         </div>

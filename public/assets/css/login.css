@@ -1,16 +1,3 @@
-
-/*
-    Note: It is best to use a less version of this file ( see http://css2less.cc
-    For the media queries use @screen-sm-min instead of 768px.
-    For .omb_spanOr use @body-bg instead of white.
-*/
-
-@media (min-width: 768px) {
-    .omb_row-sm-offset-3 div:first-child[class*="col-"] {
-        margin-left: 25%;
-    }
-}
-
 .omb_login .omb_authTitle {
   text-align: center;
 	line-height: 300%;
@@ -24,7 +11,7 @@
 	opacity:0.9;
 }
 .omb_login .omb_socialButtons a:hover {
-    color: white;
+  color: white;
 	opacity:1;
 }
 .omb_login .omb_socialButtons .omb_btn-facebook {background: #3b5998;}
@@ -61,29 +48,35 @@
 .omb_login .omb_loginForm .input-group.i {
 	width: 2em;
 }
-.omb_login .omb_loginForm  .help-block {
-    color: red;
+.omb_login .omb_loginForm .help-block {
+  color: red;
 }
 
+.fa{
+  width: 10px;
+}
+.login-btn{
+  margin-top: 20px;
+}
+.help-block{
+  margin-top: 20px;
+}
+.fogetpass{
+  margin: 50px auto;
+}
+
+@media (min-width: 768px) {
+    .omb_row-sm-offset-3 div:first-child[class*="col-"] {
+        margin-left: 25%;
+    }
+}
 
 @media (min-width: 768px) {
   .omb_login .omb_forgotPwd {
     text-align: right;
 	  margin-top:10px;
 	  }
-}
-
-.fa{
-  width: 10px;
-}
-
-.login-btn{
-  margin-top: 20px;
-}
-
-.help-block{
-  margin-top: 20px;
-}
-.fogetpass{
-  margin: 50px auto;
+  .sm-os-class{
+    margin-left: 20px;
+  }
 }

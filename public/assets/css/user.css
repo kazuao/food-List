@@ -152,3 +152,9 @@ border: 0.5px solid gray;
 .search-box{
   margin-bottom: 30px;
 }
+
+/* shopRegi CSS */
+.shop-comment textarea{
+  width: 100%;
+  height: 100px;
+}
