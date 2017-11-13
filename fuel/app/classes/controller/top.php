@@ -32,20 +32,20 @@ class Controller_Top extends Controller_Public
   {
     $form = Fieldset::forge();
 
-    $form->add('name', "名前")
+    $form->add('name', "名前", ['class' => 'inq-name'])
             ->add_rule('trim')
             ->add_rule('required')
             ->add_rule('no_tab_and_newline')
             ->add_rule('max_length', 50);
 
-    $form->add('email', "メールアドレス")
+    $form->add('email', "メールアドレス", ['class' => 'inq-mail'])
             ->add_rule('trim')
             ->add_rule('required')
             ->add_rule('no_tab_and_newline')
             ->add_rule('max_length', 100)
             ->add_rule('valid_email');
 
-    $form->add('comment', "コメント", ['type' => 'textarea', 'cols' => 70, 'rows' => 6])
+    $form->add('comment', "コメント", ['type' => 'textarea', 'cols' => 70, 'rows' => 6, 'class' => 'inq-comment'])
             ->add_rule('required')
             ->add_rule('max_length', 400);
 

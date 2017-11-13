@@ -116,6 +116,10 @@ body{
 }
 .inquiry-form td{
   padding-right: 10px;
+  white-space: pre;
+}
+.inquiry-form .inq-comment{
+  width: 100%;
 }
 
 /* confirm CSS */
